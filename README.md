@@ -33,7 +33,6 @@ $ pip install tqdm
 $ conda install scipy
 $ conda install pyyaml
 $ conda install tensorboard
-$ conda install copy
 ```
 ## Contents
 [1. Experiments on NAS-Bench-201 Search Space](https://github.com/HayeonLee/HELP#1-reproduce-main-results-on-nas-bench-201-search-space)
