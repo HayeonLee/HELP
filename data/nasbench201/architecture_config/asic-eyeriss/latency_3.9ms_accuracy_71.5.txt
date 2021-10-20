@@ -1,0 +1,1 @@
+|nor_conv_3x3~0|+|nor_conv_1x1~0|none~1|+|skip_connect~0|nor_conv_1x1~1|nor_conv_1x1~2|

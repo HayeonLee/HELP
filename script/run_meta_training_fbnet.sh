@@ -1,0 +1,11 @@
+python main.py --gpu $1 \
+		--search_space fbnet \
+		--mode 'meta-train' \
+		--num_samples 10 \
+		--num_episodes 4000 \
+		--seed 3 \
+		--num_meta_train_sample 4000 \
+		--exp_name 'reproduce' \
+		--meta_train_devices '1080ti_1,1080ti_32,1080ti_64,silver_4114,silver_4210r,samsung_a50,pixel3,essential_ph_1,samsung_s7' \
+		--meta_valid_devices 'titanx_1,titanx_32,titanx_64,gold_6240' \
+		--meta_test_devices 'fpga,raspi4,eyeriss'
